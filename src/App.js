@@ -1,4 +1,3 @@
-
 import './assets/css/style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import profileimg from './assets/img/profile-img.jpg'
@@ -159,10 +158,6 @@ function App() {
                   </div>
                   <div className="col-lg-6">
                     <ul>
-                      {/* <li>
-                        <i className="bi bi-chevron-right" />{" "}
-                        <strong>Website:</strong> <span>www.example.com</span>
-                      </li> */}
                       <li>
                         <i className="bi bi-chevron-right" />{" "}
                         <strong>Phone:</strong> <span>+94 788648271</span>
@@ -188,9 +183,9 @@ function App() {
           </div>
         </section>
         {/* End About Section */}
-        {/* ======= Facts Section ======= */}
+        
 
-        {/* End Facts Section */}
+        
         {/* ======= Skills Section ======= */}
         <section id="skills" className="skills section-bg">
           <div className="container">
@@ -247,6 +242,7 @@ function App() {
           </div>
         </section>
         {/* End Skills Section */}
+
         {/* ======= Resume Section ======= */}
         <section id="resume" className="resume">
           <div className="container">
@@ -273,14 +269,14 @@ function App() {
               <div className="col-lg-6" data-aos="fade-up">
                 <h3 className="resume-title">Certificates</h3>
                 <div className="resume-item">
-                  <h4>Frontend Developer (React) Certificate</h4>
+                  <h6 style={{fontWeight:500,display:'flex',flexDirection:'row',margin:'0'}}>Frontend Developer (React)_<p><a href="https://drive.google.com/drive/folders/1pELmqPrjwdVwdC-FVChDYx2Zc8c_pEMo?usp=drive_link" class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Certificate</a></p></h6>
                   <h5>14 May, 2024</h5>
                   <p>
                     <em>HackerRank</em>
                   </p>
                 </div>
                 <div className="resume-item">
-                  <h4>Problem Solving (Basic) Certificate</h4>
+                <h6 style={{fontWeight:500,display:'flex',flexDirection:'row',margin:'0'}}>Problem Solving (Basic)_<p><a href="https://drive.google.com/drive/folders/1pELmqPrjwdVwdC-FVChDYx2Zc8c_pEMo?usp=drive_link" class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Certificate</a></p></h6>
                   <h5>13 May, 2024</h5>
                   <p>
                     <em>HackerRank</em>
@@ -294,6 +290,7 @@ function App() {
           <span style={{ color: '#149ddd', fontWeight: 500, display: 'flex', flexDirection: 'row', alignItems: 'center' }}> <button className='resume-button'><box-icon name='file-blank' color='#ffffff' ></box-icon>Download Full Resume</button></span>
         </section>
         {/* End Resume Section */}
+
         {/* ======= Portfolio Section ======= */}
         <section id="portfolio" className="portfolio section-bg">
           <div className="container">
@@ -311,7 +308,8 @@ function App() {
             >
               <div >
                 <div className="portfolio-wrap">
-                  <a href='https://drive.google.com/file/d/1MSAauQpaLkDWKptQYDuTfAZydypw_yBQ/view'><img
+                  <a href='https://drive.google.com/file/d/1MSAauQpaLkDWKptQYDuTfAZydypw_yBQ/view'>
+                    <img
                     src={require("./assets/img/portfolio/esell.png")}
                     alt=""
                   /></a>
@@ -322,6 +320,7 @@ function App() {
           </div>
         </section>
         {/* End Portfolio Section */}
+
         {/* ======= Services Section ======= */}
         <section id="services" className="services">
           <div className="container">
@@ -415,9 +414,7 @@ function App() {
           </div>
         </section>
         {/* End Services Section */}
-        {/* ======= Testimonials Section ======= */}
-
-        {/* End Testimonials Section */}
+        
         {/* ======= Contact Section ======= */}
         <section id="contact" className="contact">
           <div className="container">
@@ -458,7 +455,7 @@ function App() {
               </div>
               <div className="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
                 <form
-                  className="php-email-form"
+                  className="email-form"
                 >
                   <div className="row">
                     <div className="form-group col-md-6">
@@ -502,13 +499,6 @@ function App() {
                       defaultValue={""}
                     />
                   </div>
-                  <div className="my-3">
-                    <div className="loading">Loading</div>
-                    <div className="error-message" />
-                    <div className="sent-message">
-                      Your message has been sent. Thank you!
-                    </div>
-                  </div>
                   <div className="text-center">
                     <button type="submit">Send Message</button>
                   </div>
@@ -520,6 +510,8 @@ function App() {
         {/* End Contact Section */}
       </main>
       {/* End #main */}
+
+
       {/* ======= Footer ======= */}
       <footer id="footer">
         <div className="container">
@@ -530,7 +522,7 @@ function App() {
             </strong>
           </div>
           <div className="credits">
-            Designed by <a href="https://google.com/">Yukenthiran Yathu</a>
+            Designed by <a href="https://yukenyathu.vercel.app/">Yukenthiran Yathu</a>
           </div>
         </div>
       </footer>
