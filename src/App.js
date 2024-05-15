@@ -269,14 +269,14 @@ function App() {
               <div className="col-lg-6" data-aos="fade-up">
                 <h3 className="resume-title">Certificates</h3>
                 <div className="resume-item">
-                  <h6 style={{fontWeight:500,display:'flex',flexDirection:'row',margin:'0'}}>Frontend Developer (React)_<p><a href="https://drive.google.com/drive/folders/1pELmqPrjwdVwdC-FVChDYx2Zc8c_pEMo?usp=drive_link" class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Certificate</a></p></h6>
+                  <h6 style={{fontWeight:500,display:'flex',flexDirection:'row',margin:'0'}}>Frontend Developer (React)_<p><a href="https://drive.google.com/drive/folders/1pELmqPrjwdVwdC-FVChDYx2Zc8c_pEMo?usp=sharing" class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Certificate</a></p></h6>
                   <h5>14 May, 2024</h5>
                   <p>
                     <em>HackerRank</em>
                   </p>
                 </div>
                 <div className="resume-item">
-                <h6 style={{fontWeight:500,display:'flex',flexDirection:'row',margin:'0'}}>Problem Solving (Basic)_<p><a href="https://drive.google.com/drive/folders/1pELmqPrjwdVwdC-FVChDYx2Zc8c_pEMo?usp=drive_link" class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Certificate</a></p></h6>
+                <h6 style={{fontWeight:500,display:'flex',flexDirection:'row',margin:'0'}}>Problem Solving (Basic)_<p><a href="https://drive.google.com/drive/folders/1pELmqPrjwdVwdC-FVChDYx2Zc8c_pEMo?usp=sharing" class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Certificate</a></p></h6>
                   <h5>13 May, 2024</h5>
                   <p>
                     <em>HackerRank</em>
@@ -287,7 +287,7 @@ function App() {
             </div>
           </div>
           <br />
-          <span style={{ color: '#149ddd', fontWeight: 500, display: 'flex', flexDirection: 'row', alignItems: 'center' }}> <button className='resume-button'><box-icon name='file-blank' color='#ffffff' ></box-icon>Download Full Resume</button></span>
+          <span style={{ color: '#149ddd', fontWeight: 500, display: 'flex', flexDirection: 'row', alignItems: 'center' }}> <button className='resume-button'><box-icon name='file-blank' color='#ffffff' ></box-icon><a href='https://drive.google.com/file/d/1tWxbrmn9jADa5nbIAbqr5Np7_SvYg2wi/view?usp=sharing' style={{color:'white'}}>Download Full Resume</a></button></span>
         </section>
         {/* End Resume Section */}
 
@@ -308,7 +308,7 @@ function App() {
             >
               <div >
                 <div className="portfolio-wrap">
-                  <a href='https://drive.google.com/file/d/1MSAauQpaLkDWKptQYDuTfAZydypw_yBQ/view'>
+                  <a href='https://drive.google.com/file/d/1MSAauQpaLkDWKptQYDuTfAZydypw_yBQ/view?usp=sharing'>
                     <img
                     src={require("./assets/img/portfolio/esell.png")}
                     alt=""
