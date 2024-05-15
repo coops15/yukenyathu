@@ -5,6 +5,7 @@ import profileimg from './assets/img/profile-img.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faLocationCrosshairs, faPhone } from '@fortawesome/free-solid-svg-icons'
 import React, { useEffect, useState } from 'react';
+import "boxicons";
 
 function App() {
 
