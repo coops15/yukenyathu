@@ -17,7 +17,7 @@ function App() {
     }, 2000); // Adjust the interval time as needed
 
     return () => clearInterval(interval);
-  }, []);
+  });
 
   const [activeSection, setActiveSection] = useState('');
 
@@ -450,6 +450,7 @@ function App() {
                     frameBorder={0}
                     style={{ border: 0, width: "100%", height: 290 }}
                     allowFullScreen=""
+                    title='location'
                   />
                 </div>
               </div>
