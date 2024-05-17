@@ -1,4 +1,5 @@
 <h3>Project Overview: Personal Portfolio Website</h3>
+
 ![Screenshot 2024-05-17 153532](https://github.com/coops15/yukenyathu/assets/137200668/72f289eb-6ef2-4aba-b3a8-19c69d21b988)
 
 <h4>Introduction</h4>
@@ -29,9 +30,28 @@ The backbone of the website's structure and styling. HTML is used to define the 
 Version control is managed using Git, which tracks changes and facilitates collaborative development. This ensures that the project history is well-documented, and any version of the project can be accessed or restored if needed.
 
 The website is fully responsive, providing an optimal viewing experience on desktops, tablets, and mobile devices. This is achieved through Bootstrap's grid system and responsive utilities.
+
 ![Screenshot 2024-05-17 153911](https://github.com/coops15/yukenyathu/assets/137200668/00c82e82-f6aa-4784-b10e-b6131dbd56de)
 
 <h5>Conclusion</h5>
 
 This personal portfolio website serves as a testament to my web development skills and my ability to create modern, responsive, and user-friendly web applications. It not only showcases my technical expertise but also reflects my dedication to delivering high-quality work.
+
+<h2>If you wish to run the project locally, follow these steps:</h2>
+
+<h6>Clone the Repository:</h6>
+git clone https://github.com/your-username/your-portfolio-repo.git
+
+<h6>Navigate to the Project Directory:</h6>
+cd your-portfolio-repo
+
+<h6>Install Dependencies:</h6>
+npm install
+
+<h6>Start the Development Server:</h6>
+npm start
+
+<h6>Open your browser and visit http://localhost:3000 to view the website locally.</h6>
+
+Thank You.
 
